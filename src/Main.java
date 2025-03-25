@@ -82,10 +82,8 @@ public class Main {
         if (toDoList.isEmpty()) {
             System.out.println("Список дел пуст !");
         }
-        int count = 0;
         for (int i = 0; i < toDoList.size(); i++) {
-            count++;
-            System.out.println(count + ". " + toDoList.get(i));
+            System.out.println(i + 1 + ". " + toDoList.get(i));
         }
         System.out.println();
 
